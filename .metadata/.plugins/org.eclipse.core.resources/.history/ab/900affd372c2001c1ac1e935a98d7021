@@ -1,0 +1,13 @@
+package com.steamlike.steamlike.business.requests;
+
+import javax.persistence.Column;
+
+public class CreateGamerRequest {
+	
+
+	private String firstName;
+
+	private String lastName;
+
+	private String ssn;
+}

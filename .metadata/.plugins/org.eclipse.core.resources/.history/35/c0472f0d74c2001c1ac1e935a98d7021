@@ -1,0 +1,23 @@
+package com.steamlike.steamlike.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.steamlike.steamlike.business.abstracts.GamerService;
+
+@RestController
+@RequestMapping("/api/gamer-controller")
+public class GamerController {
+	
+	private GamerService gamerService;
+
+	@Autowired
+	public GamerController(GamerService gamerService) {
+		super();
+		this.gamerService = gamerService;
+	}
+	
+	
+	
+}	

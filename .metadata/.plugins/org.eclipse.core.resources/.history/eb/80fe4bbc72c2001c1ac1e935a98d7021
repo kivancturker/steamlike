@@ -1,0 +1,5 @@
+package com.steamlike.steamlike.business.requests;
+
+public class CreateGamerRequest {
+
+}

@@ -1,0 +1,5 @@
+package com.steamlike.steamlike.core.mernis.abstracts;
+
+public interface PersonCheckService {
+
+}

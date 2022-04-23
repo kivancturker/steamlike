@@ -1,0 +1,23 @@
+package com.steamlike.steamlike.core.mernis.concretes;
+
+import com.steamlike.steamlike.core.mernis.abstracts.PersonCheckService;
+import com.steamlike.steamlike.entity.concretes.Gamer;
+
+public class PersonCheckServiceImpl implements PersonCheckService {
+
+	@Override
+	public boolean isPersonExist(Gamer gamer) {
+		
+		try {
+			
+			
+		} catch (RuntimeException exc) {
+			
+			
+		}
+		
+		return false;
+	}
+
+	
+}

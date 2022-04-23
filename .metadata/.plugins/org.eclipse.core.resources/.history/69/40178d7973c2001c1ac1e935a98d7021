@@ -1,0 +1,46 @@
+package com.steamlike.steamlike.business.concretes;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.steamlike.steamlike.business.abstracts.GamerService;
+import com.steamlike.steamlike.business.requests.CreateGamerRequest;
+import com.steamlike.steamlike.core.results.Result;
+import com.steamlike.steamlike.dataaccess.GamerDao;
+import com.steamlike.steamlike.entity.concretes.Gamer;
+
+public class GamerManager implements GamerService {
+
+	private GamerDao gamerDao;
+	
+	@Autowired
+	public GamerManager(GamerDao gamerDao) {
+		super();
+		this.gamerDao = gamerDao;
+	}
+
+	@Override
+	public Result add(CreateGamerRequest createGamerRequest) {
+		// TODO Auto-generated method stub
+		Gamer gamer = new Gamer();
+		gamer.setEmail(createGamerRequest.getEmail());
+		gamer.setPassword(createGamerRequest.getPassword());
+		gamer.setFirstName(createGamerRequest.getFirstName());
+		gamer.setLastName(createGamerRequest.getLastName());
+		gamer.set(createGamerRequest.getSsn());
+		
+		return null;
+	}
+
+	@Override
+	public Result update() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Result delete() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

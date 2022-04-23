@@ -1,0 +1,29 @@
+package com.steamlike.steamlike.business.concretes;
+
+import com.steamlike.steamlike.business.abstracts.GamerService;
+import com.steamlike.steamlike.business.requests.CreateGamerRequest;
+import com.steamlike.steamlike.core.results.Result;
+
+public class GamerManager implements GamerService {
+
+	@Override
+	public Result add(CreateGamerRequest createGamerRequest) {
+		// TODO Auto-generated method stub
+		
+		
+		return null;
+	}
+
+	@Override
+	public Result update() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Result delete() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

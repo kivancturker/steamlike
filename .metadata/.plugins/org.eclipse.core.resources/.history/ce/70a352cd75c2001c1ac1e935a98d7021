@@ -1,0 +1,9 @@
+package com.steamlike.steamlike.dataaccess;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.steamlike.steamlike.entity.concretes.Gamer;
+
+public interface UserDao extends JpaRepository<Gamer, Long> {
+
+}

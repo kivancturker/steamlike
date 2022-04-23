@@ -1,0 +1,6 @@
+package com.steamlike.steamlike.entity.concretes;
+
+
+public class Campaign {
+
+}

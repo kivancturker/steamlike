@@ -1,0 +1,5 @@
+package com.steamlike.steamlike.core.results;
+
+public class Result {
+
+}

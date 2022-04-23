@@ -1,0 +1,7 @@
+package com.steamlike.steamlike.business.concretes;
+
+import com.steamlike.steamlike.business.abstracts.GamerService;
+
+public class GamerManager implements GamerService{
+
+}

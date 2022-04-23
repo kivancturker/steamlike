@@ -1,0 +1,5 @@
+package com.steamlike.steamlike.dataaccess;
+
+public interface GameDao {
+
+}

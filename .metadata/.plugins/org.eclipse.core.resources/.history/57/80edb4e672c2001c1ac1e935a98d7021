@@ -1,0 +1,14 @@
+package com.steamlike.steamlike.business.requests;
+
+public class CreateGamerRequest {
+	
+	private String email;
+	
+	private String password;
+	
+	private String firstName;
+
+	private String lastName;
+
+	private String ssn;
+}
